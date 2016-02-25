@@ -1,6 +1,6 @@
 # SuperMap_iOS_Swift
 
-[![Swift 2.0+](https://img.shields.io/badge/Node.js-4.3.1-orange.svg)](https://swift.org/)
+[![Swift 2.0+](https://img.shields.io/badge/Swift-2.0+-orange.svg)](https://swift.org/)
 [![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg)](https://swift.org/)
 
 # What is this repository for? ###
