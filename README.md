@@ -1,11 +1,11 @@
 # SuperMap_iOS_Swift
 
-[![Swift 2.0+](https://img.shields.io/badge/Swift-2.0+-orange.svg)](https://swift.org/)
+[![Swift 2.0+](https://img.shields.io/badge/Node.js-4.3.1-orange.svg)](https://swift.org/)
 [![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg)](https://swift.org/)
 
 # What is this repository for? ###
 
-* Quick summary: Control remote Google Map Street View and use auto navigation feature by search a plcae.
+* Quick summary: Control remote Google Map Street View and use auto navigation feature by search a place.
 * Version 1.0.0
 
 # How do I get set up? ###
