@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42774D4C1D77CFDD00CABD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D4B1D77CFDD00CABD5A /* AppDelegate.swift */; };
+		42774D4E1D77CFDD00CABD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D4D1D77CFDD00CABD5A /* ViewController.swift */; };
+		42774D511D77CFDD00CABD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42774D4F1D77CFDD00CABD5A /* Main.storyboard */; };
+		42774D531D77CFDD00CABD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42774D521D77CFDD00CABD5A /* Assets.xcassets */; };
+		42774D561D77CFDD00CABD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42774D541D77CFDD00CABD5A /* LaunchScreen.storyboard */; };
+		42774D611D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D601D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests.swift */; };
+		42774D6C1D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D6B1D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests.swift */; };
+		42774D811D77D03500CABD5A /* GoogleAutoCompletions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D7A1D77D03500CABD5A /* GoogleAutoCompletions.swift */; };
+		42774D821D77D03500CABD5A /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D7B1D77D03500CABD5A /* GoogleDataProvider.swift */; };
+		42774D831D77D03500CABD5A /* GoogleDirectionOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D7C1D77D03500CABD5A /* GoogleDirectionOverview.swift */; };
+		42774D841D77D03500CABD5A /* GoogleDirectionSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D7D1D77D03500CABD5A /* GoogleDirectionSteps.swift */; };
+		42774D851D77D03500CABD5A /* GoogleStreetViewLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D7E1D77D03500CABD5A /* GoogleStreetViewLinks.swift */; };
+		42774D861D77D03500CABD5A /* MapModifyMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D7F1D77D03500CABD5A /* MapModifyMethod.swift */; };
+		42774D871D77D03500CABD5A /* PositionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42774D801D77D03500CABD5A /* PositionState.swift */; };
+		A30898C4813F260CF52899CF /* Pods_SuperMap_iOS_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169C3E81100189ED75406171 /* Pods_SuperMap_iOS_Controller.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42774D5D1D77CFDD00CABD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42774D401D77CFDD00CABD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42774D471D77CFDD00CABD5A;
+			remoteInfo = SuperMap_iOS_Controller;
+		};
+		42774D681D77CFDD00CABD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42774D401D77CFDD00CABD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42774D471D77CFDD00CABD5A;
+			remoteInfo = SuperMap_iOS_Controller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169C3E81100189ED75406171 /* Pods_SuperMap_iOS_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperMap_iOS_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42774D481D77CFDD00CABD5A /* SuperMap_iOS_Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMap_iOS_Controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42774D4B1D77CFDD00CABD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42774D4D1D77CFDD00CABD5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42774D501D77CFDD00CABD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42774D521D77CFDD00CABD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42774D551D77CFDD00CABD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42774D571D77CFDD00CABD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42774D5C1D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMap_iOS_ControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42774D601D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMap_iOS_ControllerTests.swift; sourceTree = "<group>"; };
+		42774D621D77CFDD00CABD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42774D671D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMap_iOS_ControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42774D6B1D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMap_iOS_ControllerUITests.swift; sourceTree = "<group>"; };
+		42774D6D1D77CFDD00CABD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42774D7A1D77D03500CABD5A /* GoogleAutoCompletions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleAutoCompletions.swift; path = ../../SuperMap_iOS_Swift/GMSPath_Test/GoogleAutoCompletions.swift; sourceTree = "<group>"; };
+		42774D7B1D77D03500CABD5A /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleDataProvider.swift; path = ../../SuperMap_iOS_Swift/GMSPath_Test/GoogleDataProvider.swift; sourceTree = "<group>"; };
+		42774D7C1D77D03500CABD5A /* GoogleDirectionOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleDirectionOverview.swift; path = ../../SuperMap_iOS_Swift/GMSPath_Test/GoogleDirectionOverview.swift; sourceTree = "<group>"; };
+		42774D7D1D77D03500CABD5A /* GoogleDirectionSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleDirectionSteps.swift; path = ../../SuperMap_iOS_Swift/GMSPath_Test/GoogleDirectionSteps.swift; sourceTree = "<group>"; };
+		42774D7E1D77D03500CABD5A /* GoogleStreetViewLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleStreetViewLinks.swift; path = ../../SuperMap_iOS_Swift/GMSPath_Test/GoogleStreetViewLinks.swift; sourceTree = "<group>"; };
+		42774D7F1D77D03500CABD5A /* MapModifyMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapModifyMethod.swift; path = ../../SuperMap_iOS_Swift/GMSPath_Test/MapModifyMethod.swift; sourceTree = "<group>"; };
+		42774D801D77D03500CABD5A /* PositionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PositionState.swift; path = ../../SuperMap_iOS_Swift/GMSPath_Test/PositionState.swift; sourceTree = "<group>"; };
+		4C864909D10765825FB7C314 /* Pods-SuperMap_iOS_Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMap_iOS_Controller.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperMap_iOS_Controller/Pods-SuperMap_iOS_Controller.release.xcconfig"; sourceTree = "<group>"; };
+		AD34C0CB07633EE2E46DEEEC /* Pods-SuperMap_iOS_Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMap_iOS_Controller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperMap_iOS_Controller/Pods-SuperMap_iOS_Controller.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42774D451D77CFDD00CABD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30898C4813F260CF52899CF /* Pods_SuperMap_iOS_Controller.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42774D591D77CFDD00CABD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42774D641D77CFDD00CABD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E889D607CF50CA17ECF8CCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD34C0CB07633EE2E46DEEEC /* Pods-SuperMap_iOS_Controller.debug.xcconfig */,
+				4C864909D10765825FB7C314 /* Pods-SuperMap_iOS_Controller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42774D3F1D77CFDD00CABD5A = {
+			isa = PBXGroup;
+			children = (
+				42774D4A1D77CFDD00CABD5A /* SuperMap_iOS_Controller */,
+				42774D5F1D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests */,
+				42774D6A1D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests */,
+				42774D491D77CFDD00CABD5A /* Products */,
+				2E889D607CF50CA17ECF8CCA /* Pods */,
+				A01CD37A9C6C90CB4F65FA5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42774D491D77CFDD00CABD5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42774D481D77CFDD00CABD5A /* SuperMap_iOS_Controller.app */,
+				42774D5C1D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests.xctest */,
+				42774D671D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42774D4A1D77CFDD00CABD5A /* SuperMap_iOS_Controller */ = {
+			isa = PBXGroup;
+			children = (
+				42774D791D77D00C00CABD5A /* GoogleMap_Custom */,
+				42774D4B1D77CFDD00CABD5A /* AppDelegate.swift */,
+				42774D4D1D77CFDD00CABD5A /* ViewController.swift */,
+				42774D4F1D77CFDD00CABD5A /* Main.storyboard */,
+				42774D521D77CFDD00CABD5A /* Assets.xcassets */,
+				42774D541D77CFDD00CABD5A /* LaunchScreen.storyboard */,
+				42774D571D77CFDD00CABD5A /* Info.plist */,
+			);
+			path = SuperMap_iOS_Controller;
+			sourceTree = "<group>";
+		};
+		42774D5F1D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				42774D601D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests.swift */,
+				42774D621D77CFDD00CABD5A /* Info.plist */,
+			);
+			path = SuperMap_iOS_ControllerTests;
+			sourceTree = "<group>";
+		};
+		42774D6A1D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42774D6B1D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests.swift */,
+				42774D6D1D77CFDD00CABD5A /* Info.plist */,
+			);
+			path = SuperMap_iOS_ControllerUITests;
+			sourceTree = "<group>";
+		};
+		42774D791D77D00C00CABD5A /* GoogleMap_Custom */ = {
+			isa = PBXGroup;
+			children = (
+				42774D7A1D77D03500CABD5A /* GoogleAutoCompletions.swift */,
+				42774D7B1D77D03500CABD5A /* GoogleDataProvider.swift */,
+				42774D7C1D77D03500CABD5A /* GoogleDirectionOverview.swift */,
+				42774D7D1D77D03500CABD5A /* GoogleDirectionSteps.swift */,
+				42774D7E1D77D03500CABD5A /* GoogleStreetViewLinks.swift */,
+				42774D7F1D77D03500CABD5A /* MapModifyMethod.swift */,
+				42774D801D77D03500CABD5A /* PositionState.swift */,
+			);
+			name = GoogleMap_Custom;
+			sourceTree = "<group>";
+		};
+		A01CD37A9C6C90CB4F65FA5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				169C3E81100189ED75406171 /* Pods_SuperMap_iOS_Controller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42774D471D77CFDD00CABD5A /* SuperMap_iOS_Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42774D701D77CFDD00CABD5A /* Build configuration list for PBXNativeTarget "SuperMap_iOS_Controller" */;
+			buildPhases = (
+				26172727BFEA11437C075C53 /* 📦 Check Pods Manifest.lock */,
+				42774D441D77CFDD00CABD5A /* Sources */,
+				42774D451D77CFDD00CABD5A /* Frameworks */,
+				42774D461D77CFDD00CABD5A /* Resources */,
+				B376F0FFE46EE2A5D0D9ADD8 /* 📦 Embed Pods Frameworks */,
+				EB991772B860AACBB58D5DE2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperMap_iOS_Controller;
+			productName = SuperMap_iOS_Controller;
+			productReference = 42774D481D77CFDD00CABD5A /* SuperMap_iOS_Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42774D5B1D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42774D731D77CFDD00CABD5A /* Build configuration list for PBXNativeTarget "SuperMap_iOS_ControllerTests" */;
+			buildPhases = (
+				42774D581D77CFDD00CABD5A /* Sources */,
+				42774D591D77CFDD00CABD5A /* Frameworks */,
+				42774D5A1D77CFDD00CABD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42774D5E1D77CFDD00CABD5A /* PBXTargetDependency */,
+			);
+			name = SuperMap_iOS_ControllerTests;
+			productName = SuperMap_iOS_ControllerTests;
+			productReference = 42774D5C1D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42774D661D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42774D761D77CFDD00CABD5A /* Build configuration list for PBXNativeTarget "SuperMap_iOS_ControllerUITests" */;
+			buildPhases = (
+				42774D631D77CFDD00CABD5A /* Sources */,
+				42774D641D77CFDD00CABD5A /* Frameworks */,
+				42774D651D77CFDD00CABD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42774D691D77CFDD00CABD5A /* PBXTargetDependency */,
+			);
+			name = SuperMap_iOS_ControllerUITests;
+			productName = SuperMap_iOS_ControllerUITests;
+			productReference = 42774D671D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42774D401D77CFDD00CABD5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bochengw.twbbs.org;
+				TargetAttributes = {
+					42774D471D77CFDD00CABD5A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					42774D5B1D77CFDD00CABD5A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 42774D471D77CFDD00CABD5A;
+					};
+					42774D661D77CFDD00CABD5A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 42774D471D77CFDD00CABD5A;
+					};
+				};
+			};
+			buildConfigurationList = 42774D431D77CFDD00CABD5A /* Build configuration list for PBXProject "SuperMap_iOS_Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42774D3F1D77CFDD00CABD5A;
+			productRefGroup = 42774D491D77CFDD00CABD5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42774D471D77CFDD00CABD5A /* SuperMap_iOS_Controller */,
+				42774D5B1D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests */,
+				42774D661D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42774D461D77CFDD00CABD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42774D561D77CFDD00CABD5A /* LaunchScreen.storyboard in Resources */,
+				42774D531D77CFDD00CABD5A /* Assets.xcassets in Resources */,
+				42774D511D77CFDD00CABD5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42774D5A1D77CFDD00CABD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42774D651D77CFDD00CABD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26172727BFEA11437C075C53 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B376F0FFE46EE2A5D0D9ADD8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperMap_iOS_Controller/Pods-SuperMap_iOS_Controller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB991772B860AACBB58D5DE2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperMap_iOS_Controller/Pods-SuperMap_iOS_Controller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42774D441D77CFDD00CABD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42774D4E1D77CFDD00CABD5A /* ViewController.swift in Sources */,
+				42774D821D77D03500CABD5A /* GoogleDataProvider.swift in Sources */,
+				42774D831D77D03500CABD5A /* GoogleDirectionOverview.swift in Sources */,
+				42774D871D77D03500CABD5A /* PositionState.swift in Sources */,
+				42774D811D77D03500CABD5A /* GoogleAutoCompletions.swift in Sources */,
+				42774D841D77D03500CABD5A /* GoogleDirectionSteps.swift in Sources */,
+				42774D4C1D77CFDD00CABD5A /* AppDelegate.swift in Sources */,
+				42774D851D77D03500CABD5A /* GoogleStreetViewLinks.swift in Sources */,
+				42774D861D77D03500CABD5A /* MapModifyMethod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42774D581D77CFDD00CABD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42774D611D77CFDD00CABD5A /* SuperMap_iOS_ControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42774D631D77CFDD00CABD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42774D6C1D77CFDD00CABD5A /* SuperMap_iOS_ControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42774D5E1D77CFDD00CABD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42774D471D77CFDD00CABD5A /* SuperMap_iOS_Controller */;
+			targetProxy = 42774D5D1D77CFDD00CABD5A /* PBXContainerItemProxy */;
+		};
+		42774D691D77CFDD00CABD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42774D471D77CFDD00CABD5A /* SuperMap_iOS_Controller */;
+			targetProxy = 42774D681D77CFDD00CABD5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42774D4F1D77CFDD00CABD5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42774D501D77CFDD00CABD5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42774D541D77CFDD00CABD5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42774D551D77CFDD00CABD5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42774D6E1D77CFDD00CABD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42774D6F1D77CFDD00CABD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42774D711D77CFDD00CABD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD34C0CB07633EE2E46DEEEC /* Pods-SuperMap_iOS_Controller.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperMap_iOS_Controller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bochengw.twbbs.org.SuperMap-iOS-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42774D721D77CFDD00CABD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C864909D10765825FB7C314 /* Pods-SuperMap_iOS_Controller.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperMap_iOS_Controller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bochengw.twbbs.org.SuperMap-iOS-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42774D741D77CFDD00CABD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperMap_iOS_ControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bochengw.twbbs.org.SuperMap-iOS-ControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMap_iOS_Controller.app/SuperMap_iOS_Controller";
+			};
+			name = Debug;
+		};
+		42774D751D77CFDD00CABD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperMap_iOS_ControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bochengw.twbbs.org.SuperMap-iOS-ControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMap_iOS_Controller.app/SuperMap_iOS_Controller";
+			};
+			name = Release;
+		};
+		42774D771D77CFDD00CABD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperMap_iOS_ControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bochengw.twbbs.org.SuperMap-iOS-ControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperMap_iOS_Controller;
+			};
+			name = Debug;
+		};
+		42774D781D77CFDD00CABD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperMap_iOS_ControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bochengw.twbbs.org.SuperMap-iOS-ControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperMap_iOS_Controller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42774D431D77CFDD00CABD5A /* Build configuration list for PBXProject "SuperMap_iOS_Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42774D6E1D77CFDD00CABD5A /* Debug */,
+				42774D6F1D77CFDD00CABD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42774D701D77CFDD00CABD5A /* Build configuration list for PBXNativeTarget "SuperMap_iOS_Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42774D711D77CFDD00CABD5A /* Debug */,
+				42774D721D77CFDD00CABD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42774D731D77CFDD00CABD5A /* Build configuration list for PBXNativeTarget "SuperMap_iOS_ControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42774D741D77CFDD00CABD5A /* Debug */,
+				42774D751D77CFDD00CABD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42774D761D77CFDD00CABD5A /* Build configuration list for PBXNativeTarget "SuperMap_iOS_ControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42774D771D77CFDD00CABD5A /* Debug */,
+				42774D781D77CFDD00CABD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42774D401D77CFDD00CABD5A /* Project object */;
+}

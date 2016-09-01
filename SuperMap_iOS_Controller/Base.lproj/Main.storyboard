@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ykg-M8-PNc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Bn8-rc-rhu">
+            <objects>
+                <viewController id="Ykg-M8-PNc" customClass="ViewController" customModule="SuperMap_iOS_Controller" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Mj-SX-cIV"/>
+                        <viewControllerLayoutGuide type="bottom" id="XWl-y6-bI1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sWV-We-SkL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="sdg-am-hJu">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Q4a-H8-u0v">
+                                <rect key="frame" x="0.0" y="72" width="600" height="172"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="172" id="aP9-X2-JJH"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ykg-M8-PNc" id="c2c-Fb-UVi"/>
+                                    <outlet property="delegate" destination="Ykg-M8-PNc" id="uTF-yG-reP"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rZ-bj-iwP">
+                                <rect key="frame" x="284" y="469" width="32" height="30"/>
+                                <state key="normal" title="Auto"/>
+                                <connections>
+                                    <action selector="autoJump:" destination="Ykg-M8-PNc" eventType="touchUpInside" id="SZF-by-plo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWY-Th-FB6">
+                                <rect key="frame" x="75" y="469" width="31" height="30"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="prevJump:" destination="Ykg-M8-PNc" eventType="touchUpInside" id="Hz0-HE-Fhr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mc8-wF-c1j">
+                                <rect key="frame" x="502" y="469" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="nextStep:" destination="Ykg-M8-PNc" eventType="touchUpInside" id="ikq-ca-ZZF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sdg-am-hJu" firstAttribute="top" secondItem="9Mj-SX-cIV" secondAttribute="bottom" constant="8" id="8XE-Gv-Wtn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mc8-wF-c1j" secondAttribute="trailing" constant="46" id="HDW-Lz-8HB"/>
+                            <constraint firstItem="Q4a-H8-u0v" firstAttribute="trailing" secondItem="sdg-am-hJu" secondAttribute="trailing" id="JjD-At-vzI"/>
+                            <constraint firstAttribute="trailing" secondItem="sdg-am-hJu" secondAttribute="trailing" id="M1o-c4-mXx"/>
+                            <constraint firstItem="Q4a-H8-u0v" firstAttribute="leading" secondItem="sWV-We-SkL" secondAttribute="leading" id="M49-8t-B5f"/>
+                            <constraint firstItem="dWY-Th-FB6" firstAttribute="leading" secondItem="sWV-We-SkL" secondAttribute="leadingMargin" constant="55" id="Rcb-DB-SEl"/>
+                            <constraint firstItem="7rZ-bj-iwP" firstAttribute="centerX" secondItem="Q4a-H8-u0v" secondAttribute="centerX" id="TSF-cl-xTR"/>
+                            <constraint firstItem="7rZ-bj-iwP" firstAttribute="baseline" secondItem="Mc8-wF-c1j" secondAttribute="baseline" id="UNZ-8l-Jhb"/>
+                            <constraint firstItem="dWY-Th-FB6" firstAttribute="baseline" secondItem="7rZ-bj-iwP" secondAttribute="baseline" id="hof-SF-W7U"/>
+                            <constraint firstItem="Q4a-H8-u0v" firstAttribute="leading" secondItem="sdg-am-hJu" secondAttribute="leading" id="iJN-Wd-FfT"/>
+                            <constraint firstItem="XWl-y6-bI1" firstAttribute="top" secondItem="dWY-Th-FB6" secondAttribute="bottom" constant="101" id="wNJ-z7-ylF"/>
+                            <constraint firstItem="Q4a-H8-u0v" firstAttribute="top" secondItem="sdg-am-hJu" secondAttribute="bottom" id="yNu-bC-CYl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="autoBtn" destination="7rZ-bj-iwP" id="tQU-aS-b5Q"/>
+                        <outlet property="nextBtn" destination="Mc8-wF-c1j" id="MIe-up-TSb"/>
+                        <outlet property="prevBtn" destination="dWY-Th-FB6" id="YFb-U4-AoX"/>
+                        <outlet property="searchBar" destination="sdg-am-hJu" id="zXb-pV-X6F"/>
+                        <outlet property="tableView" destination="Q4a-H8-u0v" id="sbb-M3-jJV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Fo-nS-uwy" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="467" y="213"/>
+        </scene>
+    </scenes>
+</document>
